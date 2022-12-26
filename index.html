@@ -9,52 +9,73 @@
   <title>Password Generator</title>
 </head>
 
+<!--* cnt = container -->
+<!--* btn = button -->
+<!--* opt = options -->
+<!--* lgth = length -->
+
+<!--* pll = password length label -->
+<!--* ul = uppercase label -->
+<!--* ll = lowercase label -->
+<!--* nl = number label -->
+
+
 <body>
-  <figure class=cont>
+  <figure class=cnt>
 
     <!--? Title and actual password generated section -->
     <h2>Password Generator</h2>
-    <section class=result-cont>
-      <span id="result"></span>
+    <section class=result-cnt>
+      <span id="pass-result"></span>
       <button class="btn" id="clipboard"> <img src="./Assets/icons/page_white_paste.ico"
           alt="copy to clipboard"> <i class="clipboard-icon"></i> </button>
     </section>
 
     <!--? length -->
-    <section class="opt">
-      <div>
-        <label>Password Length</label>
-        <input type="number" id="len" min="5" max="25" value="25">
+    <section>
+      <div class="opt">
+        <i class="optstyle">
+          <label>Password Length   </label>
+          <input type="number" id="lgth" min="5" max="25" value="25">
+        </i>
       </div>
 
       <!--? uppercase -->
-      <div>
-        <label>Uppercase</label>
-        <input type="checkbox" id="uppercase" checked>
+      <div class="opt">
+        <i class="optstyle">
+          <label>Uppercase         </label>
+          <input type="checkbox" id="uppercase" checked>
+        </i>
       </div>
 
       <!--? lowercase -->
-      <div>
-        <label>Lowercase</label>
-        <input type="checkbox" id="lowercase" checked>
+      <div class="opt">
+        <i class="optstyle">
+          <label>Lowercase         </label>
+          <input type="checkbox" id="lowercase" checked>
+        </i>
       </div>
 
       <!--? numbers -->
-      <div>
-        <label>Numbers</label>
-        <input type="checkbox" id="numbers" checked>
+      <div class="opt">
+        <i class="optstyle">
+          <label>Numbers           </label>
+          <input type="checkbox" id="numbers" checked>
+        </i>
       </div>
 
       <!--? symbols -->
-      <div>
-        <label>Special Characters</label>
-        <input type="checkbox" id="special characters" checked>
+      <div class="opt">
+        <i class="optstyle">
+          <label>Special Characters</label>
+          <input type="checkbox" id="spec-char" checked>
+        </i>
       </div>
     </section>
 
     <!--? generate password button -->
     <section>
-      <button class="btn bigb" id="gen">Generate Password</button>
+      <button class="btn" id="gen">Generate</button>
     </section>
 
   </figure>

@@ -76,14 +76,14 @@ max-width: calc(100% - 40px);
 	width: 40px;
 }
 
-.opt {
+.param {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	margin: 3px 0px;
 } 
 
-.optstyle {
+.paramstyle {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;

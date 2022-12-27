@@ -32,7 +32,7 @@ const passwdParam = (passLgth, useUp, useLow, useNum, useSpec) => {
   let charArray = [];
   let usedGen = [];
 
-  //? password parameters true or false
+  //? password parameters selection true or false
   if (useUp) {
     usedGen.push(genRandomizer.upperCase);
   } if (useLow) {

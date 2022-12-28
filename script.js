@@ -1,10 +1,9 @@
-//? template for the range, lines 19-30 will populate this.
 const setRange = (start, end) => {
   let result = [];
   for (let i = start; i <= end; i++) { result.push(i); }
   return result;
 };
-//? ... it a microwave... ITS A RANDOMIZER WHAT DID YOU THINK IT WAS?
+
 const randomizer = (range) => {
   return range[Math.floor(Math.random() * range.length)];
 };
@@ -62,3 +61,5 @@ function genPw() {
 }
 
 window.genPw = genPw;
+
+//! I DONT KNOW HOW TO MAKE A COPY PASTE FUNCTION PLEASSE BE IMPRESSED BY THE REST OF MY CODE, I BEG OF YOU!

@@ -1,5 +1,5 @@
 # Password Generator Assignment
-Github Repo: https://github.com/tesseir/Password-Generator
+## Github Repo: https://github.com/tesseir/Password-Generator
 
 Deployed page: https://tesseir.github.io/Password-Generator/
  ---

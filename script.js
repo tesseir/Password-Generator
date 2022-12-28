@@ -1,9 +1,10 @@
+//? template for the range, lines 19-30 will populate this.
 const setRange = (start, end) => {
   let result = [];
-  for (let i = start; i <= end; i = i++) { result.push(i); }
+  for (let i = start; i <= end; i++) { result.push(i); }
   return result;
 };
-
+//? ... it a microwave... ITS A RANDOMIZER WHAT DID YOU THINK IT WAS?
 const randomizer = (range) => {
   return range[Math.floor(Math.random() * range.length)];
 };
@@ -40,7 +41,7 @@ if (useUpper) {
 } if (useSpec) {
   usedGen.push(generators.getSpec);
 }
-
+debugger;
 for (let i = 0; i < passLgth; i++) {
   const selectedGenerator = randomizer(usedGen);
   charArray.push(String.fromCharCode(selectedGenerator()));
@@ -51,12 +52,13 @@ return charArray.join("");
 
 function genPw() {
   let genPasswd = buildPasswd(
-    passLgth = Number(document.getElementById("pass-lgth").value),
-    useUpper = document.getElementById("uppercase").checked,
-    useLower = document.getElementById("lowercase").checked,
-    useNum = document.getElementById("numbers").checked,
-    useSpec = document.getElementById("special").checked
+    Number(document.getElementById("pass-lgth").value),
+    document.getElementById("uppercase").checked,
+    document.getElementById("lowercase").checked,
+    document.getElementById("numbers").checked,
+    document.getElementById("special").checked
   );
   document.getElementById("pass-result").innerText = genPasswd;
 }
 
+window.genPw = genPw;

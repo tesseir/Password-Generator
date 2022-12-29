@@ -19,9 +19,9 @@ User creates 128 character long password.
 
 ## Usage
 
-Download the files to your local drive, and run "Index.HTML" on Chrome. Once there, right click anywhere on the screen and click "Select Element". Once thats done youll be able to see the console, which will help you decide what to study first!
+Download the files to your local drive, and run "Index.HTML" on Chrome. Please download all files to your device, and keep them together in the folder "password-generator" as they are crucial to the site working properly. 
 
-Please download all files to your device, and keep them together in the folder "password-generator" as they are crucial to the site working properly.
+Click the generate button to generate a password. Change the length of the password by inputing a number between 8 and 128. To change what passwords contain, check or uncheck the text boxes.
 
 ## User Story
 
